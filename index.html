@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="./BOOTSTRAP/MDB/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./BOOTSTRAP/MDB/css/mdb.css">
+	<link rel="stylesheet" href="./BOOTSTRAP/font-awesome/fa/css/all.css">
+</head>
+<body>
+    <div class="container mt-5">
+    	<div class="row">
+    		<div class="col-md-6 m-auto">
+    			<div class="card">
+    				<div class="card-header bg-primary text-white text-center">
+    					<h1>CALCULATOR</h1>
+    				</div>
+    				<div class="card-body bg-light">
+    					<form>
+    						<div class="form-group">
+    							<input type="text" placeholder="Enter number 1" id="num1">
+    							<input type="text" placeholder="Enter number 2" id="num2">
+                            </div>
+                            <div class="form-group">
+    						 <button class="btn btn-sm" id="add"><i class="fa-solid fa-plus"></i></button>
+    						 <button class="btn btn-sm" id="sub"><i class="fa-solid fa-minus"></i></button>
+    						 <button class="btn btn-sm" id="prod"><i class="fa-solid fa-xmark"></i></button>
+    						 <button class="btn btn-sm" id="divi"><i class="fa-solid fa-divide"></i></button>
+                            </div>
+                 <div class="card-footer bg-primary text-white text-center">Result=<span id="result"></span>
+    					    </div>
+    					</form>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
